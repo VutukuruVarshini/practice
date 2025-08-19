@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="form1">
+    <fieldset>
+<legend>Personal Details</legend>
+    <form>
+        <table>
+    <tr><td><label>First Name:</label></td>
+        <td> <input type="text" required placeholder="ex:Varshini" size="20"></td></tr>
+
+    <tr><td><label>Last Name:</label></td> 
+        <td><input type="text" required placeholder="ex:vutu" size="20"></td></tr>
+   <tr><td><label>Mobile number:</label></td>
+       <td> <input type="tel" required placeholder="123-456-7890"  size="20" ></td></tr>
+  <tr><td><label>Email:</label></td> 
+      <td> <input type="email" required placeholder="varsh@gmail.com" size="20"> </td></tr>
+  <tr><td> <label>Password:</label></td>
+    <td> <input type="password" required placeholder="min 5 character"size="20"></td></tr>
+  <tr> <td> <label>DOB:</label></td>
+    <td><input type="date"></td></tr>
+  <tr><td> <label>Gender:</label></td>
+    <td><input type="radio" name="gender" value="M">male<input type="radio" name="gender" value="F">female<input type="radio" name="gender" value="C">Custom</td></tr> 
+  <tr><td><label>Select Country:</label></td>
+    <td><select name="Country">
+           <option value="India">India</option>
+           <option value="China">China</option>
+           <option value="Russia">Russia</option>
+           <option value="America">America</option>
+           <option value="Other">Other</option> </select></td></tr>
+
+  <tr> <td> <label>Upload picture:</label></td>
+     <td><input type="file"></td> </tr>
+   <tr><td><input type="reset"></td></tr>
+    </table>
+   </fieldset>
+</div>
+<div id="form2">
+   <fieldset>  
+    <legend>Course Details</legend>
+
+    <table>
+   <td><label>Select Course:</label></td>
+   <td> <select name="course">
+<option value="Java">Java</option>
+<option value="Python">Python</option>
+<option value="Java Full stack">Java Full stack</option>
+<option value="Python Full stack">Python Full stack</option>
+    </select><td></tr>
+<tr><td><label>Course Type:</label></td>
+    <td><input type="checkbox" name="mode1" value="online">Online<input type="checkbox" name="mode2" value="ofline">Ofline</td></tr>
+<tr><td><label>Comments:</label></td>
+    <td><textarea rows="4"columns="40"></textarea></td></tr>
+<tr><td><input type="submit">  </td></tr>
+</table>
+</fieldset>
+ </form>
+ </div>
+</body>
+</html>

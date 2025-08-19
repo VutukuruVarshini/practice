@@ -1,0 +1,73 @@
+
+body{
+  background-color: #e3f2fd;    
+    font-family: Arial,sans-serif;
+}
+fieldset{
+    border: 3px solid gray;
+     padding: 20px;
+}
+textarea{
+    border:3px solid gray;
+}
+
+#form1, #form2{
+    width:30%;
+margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Narrow columns by percentage */
+#inwardTable th:nth-child(1),
+#inwardTable td:nth-child(1) {
+  width: 12%;  /* GateIn# */
+}
+
+#inwardTable th:nth-child(2),
+#inwardTable td:nth-child(2) {
+  width: 30%;  /* Supplier */
+}
+
+#inwardTable th:nth-child(3),
+#inwardTable td:nth-child(3) {
+  width: 18%;  /* Date */
+}
+
+#inwardTable th:nth-child(4),
+#inwardTable td:nth-child(4) {
+  width: 40%;  /* Actions */
+}
+
+#inwardTable tbody tr {
+  background-color: #f7f9fc;
+}
+
+#inwardTable tbody tr:hover {
+  background-color: #e3f2fd;
+  cursor: pointer;
+}
+
+#inwardTable thead tr {
+  background-color: transparent;
+}
+
+/* No borders anywhere */
+#inwardTable,
+#inwardTable th,
+#inwardTable td {
+  border: none !important;
+}
+
